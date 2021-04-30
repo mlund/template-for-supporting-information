@@ -14,6 +14,7 @@ Description of the directory layout.
 - `README.md` This is the file you're viewing right now. You may want to edit the **Binder** badge above to match your repository.
 - `environment.yml` Defines the required Python packages using conda. It's a good idea to try to set specific versions of your
   dependencies as their behavior may change in the future.
+  The environment is currently called `my_environment` and you'll likely want to rename it to something less generic.
 
 ## Requirements
 
