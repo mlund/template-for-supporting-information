@@ -1,10 +1,10 @@
 {
-    "title": "Electronic Notebook: Some title...",
+    "title": "Electronic Notebook: Github Template for Scientific Datasets to be Deposited on Zenodo.org",
     "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results presented in ...",
     "creators": [
         {
             "name": "Mikael Lund",
-            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+            "affiliation": "Division of Computational Chemistry, Department of Chemistry, Lund University, Sweden",
             "orcid": "0000-0001-8178-8175"
         }
     ],
@@ -18,7 +18,7 @@
     ],
     "keywords": [
         "reproducible science",
-        "electronic notebooks"
+        "electronic notebook"
     ],
     "related_identifiers": [
         {
@@ -36,5 +36,11 @@
         "id": "CC0-1.0"
     },
     "access_right": "open",
-    "upload_type": "software"
+    "upload_type": "software",
+    "resource_type": {
+      "id": "software-computationalnotebook",
+      "title": {
+        "en": "Computational notebook"
+      }
+    },
 }
