@@ -29,7 +29,8 @@
         {
             "scheme": "doi",
             "identifier": "doi-goes-here",
-            "relation": "isSupplementTo"
+            "relation": "isSupplementTo",
+            "resource_type": "publication-article"
         }
     ],
     "license": "CC-BY-4.0",

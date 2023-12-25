@@ -36,11 +36,10 @@ and make sure all required packages are loaded by issuing the following terminal
 
 - [ ] Add authors and other relevant metadata to `.zenodo.json`; to learn more about the available datafields, see
   [here](https://developers.zenodo.org/?python#depositions).
-  Before publishing, validate the JSON file using the Zenodo deposition schema [`legacyrecord.json`](https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json) with _e.g._
+  Before publishing, validate the JSON file using the Zenodo deposition schema [`legacyrecord.json`](https://github.com/zenodo/zenodo/blob/482ee72ad501cbbd7f8ce8df9b393c130d1970f7/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json#L4) with _e.g._
   ``` bash
-  pip install jsonschema
-  wget https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json
-  jsonschema legacyrecord.json < .zenodo.json
+  pip install check-jsonschema
+  check-jsonschema --schemafile https://raw.githubusercontent.com/zenodo/zenodo/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json .zenodo.json
   ```
 - [ ] Update Binder badge to point to your repository
 - [ ] Add the Github repo link and DOI of the associated publication to `.zenodo.json` under `related_identifiers`.
