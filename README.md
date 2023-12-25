@@ -18,7 +18,7 @@ Description of the directory layout.
   dependencies as their behavior may change in the future.
   The environment is currently called `my_environment` and you'll likely want to rename it to something less generic.
 - `.zenodo.json` metadata for Zenodo.
-- `ruff.toml` and `github/workflows/ruff.yml` sets up ruff linting for Python and Jupyter Notebooks. Delete if not relevant to your project.
+- `pyproject.toml` and `github/workflows/ruff.yml` sets up ruff linting for Python and Jupyter Notebooks. Delete if not relevant to your project.
 
 ## Requirements
 
