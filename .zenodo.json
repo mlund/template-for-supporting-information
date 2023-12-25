@@ -28,19 +28,11 @@
         },
         {
             "scheme": "doi",
-            "identifier": "10.1021/jacs.1c01925",
+            "identifier": "doi-goes-here",
             "relation": "isSupplementTo"
         }
     ],
-    "license": {
-        "id": "CC0-1.0"
-    },
+    "license": "CC-BY-4.0",
     "access_right": "open",
-    "upload_type": "software",
-    "resource_type": {
-      "id": "software-computationalnotebook",
-      "title": {
-        "en": "Computational notebook"
-      }
-    },
+    "upload_type": "workflow"
 }

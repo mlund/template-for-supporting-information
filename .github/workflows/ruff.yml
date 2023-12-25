@@ -1,0 +1,4 @@
+uses: jpetrucciani/ruff-check@main
+with:
+  path: '.'
+
