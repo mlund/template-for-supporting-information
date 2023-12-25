@@ -1,11 +1,10 @@
 name: my_environment
-channels:
-    - defaults
 dependencies:
-    - python=3
-    - pandas=1
-    - scipy=1
+    - jupyterlab=4
     - matplotlib=3
-    - numpy=1
-    - jupyter
     - notebook
+    - numpy=1
+    - pandas=1
+    - python=3
+    - scipy=1
+ 
