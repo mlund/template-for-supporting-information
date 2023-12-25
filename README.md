@@ -45,8 +45,8 @@ and make sure all required packages are loaded by issuing the following terminal
 - [ ] Update Binder badge to point to your repository
 - [ ] Add the Github repo link and DOI of the associated publication to `.zenodo.json` under `related_identifiers`.
 - [ ] Update `environment.yml` to include required packages. Select name for environment.
-- [ ] If needed, change the license (`LICENSE` and badge in `README.md`)
+- [ ] If needed, change the license (`LICENSE` and badge in `README.md`), see _e.g._ [CC alternatives](https://github.com/santisoler/cc-licenses)
 - [ ] Activate Github tracking of the repository on Zenodo.org. Repository must be public.
-- [ ] Create a release on Github - adhere to [SemVer](https://semver.org). This triggers a archivation on Zenodo.
+- [ ] Create a release on Github - adhere to [SemVer](https://semver.org). This triggers a deposition on Zenodo.
 - [ ] Once you get the Zenodo DOI, add a badge to the top if this README. Use link to _all_ versions.
 - [ ] Feel free to update and make new releases!
