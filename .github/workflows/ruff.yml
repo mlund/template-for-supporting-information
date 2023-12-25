@@ -1,7 +1,12 @@
 name: ruff
 on: [push]
-
-uses: jpetrucciani/ruff-check@main
-with:
-  path: '.'
-
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: ruff-check
+        id: ruff-check
+        uses: jpetrucciani/ruff-check@main
+        with:
+          path: '.'
