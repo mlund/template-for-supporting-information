@@ -1,6 +1,6 @@
 name: my_environment
 dependencies:
-    - jupyterlab=4
+    - jupyterlab
     - matplotlib=3
     - notebook
     - numpy=1
