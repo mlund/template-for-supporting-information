@@ -3,17 +3,17 @@
     "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results presented in ...",
     "creators": [
         {
-            "name": "Mikael Lund",
-            "affiliation": "Division of Computational Chemistry, Department of Chemistry, Lund University, Sweden",
-            "orcid": "0000-0001-8178-8175"
+            "name": "Jane Doe",
+            "affiliation": "Some university...",
+            "orcid": "0000-0000-0000-0000"
         }
     ],
     "contributors": [
         {
             "name": "Alfons Åberg",
+            "affiliation": "Department of ...",
             "orcid": "0000-0000-0000-0000",
-            "type": "Researcher",
-            "affiliation": "Department of ..."
+            "type": "Researcher"
         }
     ],
     "keywords": [
