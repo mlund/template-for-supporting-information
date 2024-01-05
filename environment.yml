@@ -1,4 +1,6 @@
 name: my_environment
+channels:
+    - conda-forge
 dependencies:
     - jupyterlab
     - matplotlib=3
