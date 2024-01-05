@@ -1,6 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/template-for-supporting-information/HEAD)
 [![CC BY 4.0][cc-by-shield]][cc-by]
-[![ruff](https://github.com/mlund/template-for-supporting-information/actions/workflows/ruff.yml/badge.svg)](https://github.com/mlund/template-for-supporting-information/actions/workflows/ruff.yml)
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
@@ -8,6 +7,10 @@
 # Electronic Notebook: Title goes here
 
 Template for Notebooks for Supporting Information and Zenodo Deposition.
+
+## Instruction video
+[![Watch the video](https://img.youtube.com/vi/UhexcR2hQP4/hqdefault.jpg)](https://www.youtube.com/embed/UhexcR2hQP4)
+
 
 ## Layout
 
