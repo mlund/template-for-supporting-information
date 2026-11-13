@@ -66,8 +66,6 @@ Before designing or writing code, load these skills (read each `SKILL.md` and fo
   to the repository, never absolute or user-specific.
 - Public functions, classes and modules get numpy-style docstrings (ruff enforces this).
 - Before finishing: `uv run ruff check --fix`, `uv run ruff format`, `uv run pytest`.
-- After dependency changes, refresh the Binder copy:
-  `uv export --frozen --no-dev --no-hashes -o .binder/requirements.txt`.
 
 ## Comments and docs
 

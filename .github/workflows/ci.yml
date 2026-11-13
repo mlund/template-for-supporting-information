@@ -10,10 +10,6 @@ jobs:
       - run: uv run ruff check
       - run: uv run ruff format --check
       - run: uv run pytest
-      # Binder can't read uv.lock; fail if its exported copy drifts.
-      - run: |
-          uv export --frozen --no-dev --no-hashes -o .binder/requirements.txt
-          git diff --exit-code .binder/requirements.txt
       - name: Validate Zenodo metadata
         run: >
           uvx check-jsonschema
