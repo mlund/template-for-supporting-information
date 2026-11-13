@@ -1,0 +1,21 @@
+# GitHub's "Cite this repository" reads this; Zenodo reads .zenodo.json instead, so keep both in sync.
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "Electronic Notebook: Title goes here"
+type: software
+license: CC-BY-4.0
+authors:
+  - family-names: Doe
+    given-names: Jane
+    affiliation: "Some university..."
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - reproducible science
+  - electronic notebook
+preferred-citation:
+  type: article
+  title: "Title of the associated publication"
+  doi: "10.0000/doi-goes-here"
+  authors:
+    - family-names: Doe
+      given-names: Jane
